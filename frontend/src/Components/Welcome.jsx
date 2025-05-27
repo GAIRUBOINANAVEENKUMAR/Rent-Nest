@@ -6,14 +6,14 @@ const Welcome = () => {
     <>
     <div>
         <div class='nav'>
-            <ul>
-                 <li><a href='#Home'>Home</a></li>
-                <li><a href='#OurServices'>Our Services</a></li>
-                 <li><a href='#signup'>Signup</a></li>
-                 <li><a href='#signin'>Signin</a></li>
-                 <li><a href='#OurTeam'>Our Team</a></li>
-                 <li><a href='#feedback'>Feedback</a></li>
-            </ul>
+            <img src='rent_nest_logo.jpg' alt='logo'></img>
+            
+                 <a href='#Home'>Home</a>
+                <a href='#OurServices'>Our Services</a>
+                 <a href='#signup'>Signup</a>
+                 <a href='#signin'>Signin</a>
+                 <a href='#OurTeam'>Our Team</a>
+                 <a href='#feedback'>Feedback</a>
         </div>
         <div class="welcome_body">
             {/* Home section */}

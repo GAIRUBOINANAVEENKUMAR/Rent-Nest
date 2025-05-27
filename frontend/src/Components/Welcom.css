@@ -6,21 +6,26 @@
     position:fixed;
     width: 100%;
     z-index: 1;
-}
-.nav ul{
+    display: flex;
     background-color: black;
-    gap:5px;
+    gap: 5px;
+
+    &>img{
+        width: 30px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius:80px;
+        }
+    }
+.nav a{
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    list-style: none;
-    
-    }
-.nav ul a{
     text-decoration: none;
-    padding: 5px;
     border:3px solid blue;
     background-color: bisque;
+    align-items: center;
+    padding: 5px;
+
 }
 section{
     height: 100vh;
